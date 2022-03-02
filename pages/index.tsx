@@ -1,6 +1,7 @@
 import Button from '@mui/material/Button';
 import Head from 'next/head';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/NavBar/NavBar';
+import About from '../components/About/About';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <title>MS Confecções</title>
       </Head>
       <NavBar />
+      <About />
     </>
   );
 }
